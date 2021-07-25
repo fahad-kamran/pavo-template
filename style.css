@@ -1,0 +1,235 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #EAF7FC;
+    text-align: center;
+}
+.navbar{
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 100;
+    background-color: #EAF7FC;
+    padding: 0px 40px !important;
+}
+.nav-link:hover , .active , .dropdown-item:hover{
+color: #EB427E !important;
+}
+.dropdown-item:hover{
+    background-color: rgb(0,0,0,0);
+}
+.Logo{
+    width: 100px;
+}
+.icon{
+    font-size: 25px;
+}
+.headContainer, .Detail-1, .Detail-2, .Detail-3, .conclusion{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.backgroundImage img{
+    max-width: 500px;
+    width: 90%;
+    height: auto;
+}
+.Text{
+    width: 400px;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.Text p{
+    margin: 50px 0px;
+}
+.buttonContainer button{ 
+width: 140px;
+height: 50px;
+border-radius: 25px;
+font-size: 16px;
+}
+.btn1{
+    background-color: #594CDA;
+    border: 1px solid #594CDA;
+    color: #fff;
+}
+.btn2{
+    background-color: #EB427E;
+    border: 1px solid #EB427E;
+    color: #fff;
+}
+.btn1:hover{
+    color: #594CDA;
+    background-color: #EAF7FC;
+}
+.btn2:hover{
+    color: #EB427E;
+    background-color: #EAF7FC;
+}
+.btnIcon{
+    font-size: 20px;
+    margin-right: 6px;
+}
+.containerSixParts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #fff;
+    justify-content: space-around;
+    padding: 40px;
+}
+.containerSixParts div{
+    width: 300px;
+    border-radius: 25px;
+    background-color: #EAF7FC;
+    margin-top: 20px;
+}
+.containerSixParts div img{
+    width: 70px;
+    height: 70px;
+    margin: 25px;
+}
+.containerSixParts div p{
+    margin: 0px 20px;
+}
+.Detail-1, .Detail-2 , .Detail-3{
+    background-color: #EAF7FC;
+}
+.Detail-2 h6{
+    margin: 10px 0px;
+    text-align: left;
+}
+.Arrow{
+    font-size: 25px;
+    margin-right: 10px;
+    color: #594CDA;
+}
+.UsersCounting{
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.PricingOptions{
+    background-image: url('images/pricing-background.jpg'); 
+    background-size: cover;
+}
+.darkImage{
+    padding-top: 100px;
+    height: auto;
+    background-color: rgb(0,0,0,0.7);
+}
+.margin{
+    margin: 10px 10%;
+    color: #fff;
+}
+.card-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card-container div{
+    width: 295px;
+    height: 500px;
+    text-align: justify;
+    margin-top: 80px;
+    margin-bottom: -50px;
+    border: 2px solid #b5b5b5; 
+    padding: 30px 20px 0px 20px;
+    border-radius: 25px;
+}
+.card h3{
+    color: #EB427E;
+    text-align: center;
+}
+.card h1{
+    font-size: 70px !important;
+    text-align: center;
+}
+.Dollar{
+    font-size: 40px;
+    margin-right: 10px;
+}
+.card-button{
+    width: 150px;
+    padding: 10px;
+    margin: auto;
+    background-color: #594CDA;
+    color: #fff;
+    border: 1px solid #594CDA;
+    border-radius: 50px;
+}
+.card-button:hover{
+    background-color: #fff;
+    color: #594CDA;
+}
+.conclusion{
+    margin-top: 130px;
+}
+.Footer{
+    margin-top: 60px;
+}
+.socialIcon{
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+.Icon-Container{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: #000;
+}
+.Icon-Container:hover{
+    background-color: #000;
+    color: #fff;
+}
+.bottom-footer{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.bottom-footer div{
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.link a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 20px;
+}
+.copyRight li{
+    list-style: none;
+    margin-right: 30px;
+}
+@media screen and (max-width:644px) {
+    .bottom-footer{
+        justify-content: center !important;
+    }
+}
